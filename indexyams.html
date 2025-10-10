@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Jeu de Yam's - Jeu</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="CSS/yamsstyle.css">
+</head>
+<body>
+    <header>
+		<div class="menuyamsheader">
+			<h3>Menu</h3>
+            <a href="menu_principal.html">
+                <button>Menu Principal</button>
+            </a>
+            <a href="score_final.html">
+                <button>Voir les scores finaux</button>
+            </a>
+		</div>
+
+
+		<div class="jeuyamsheader">
+			<h1>Jeu de Yam's</h1>
+			<label>Nom de votre fichier json: </label>
+			<input type="text" id="nomjson">
+			<button id="search-button">Rechercher</button>
+
+			<h3>Joueurs présents:</h3>
+			<div id="players-list"></div>
+		</div>
+	</header>
+	<main>
+		<div class="showGame">
+			<div class="buttons">
+				<button class="goBack">
+					<div>
+						<img src="Images/backarrow.png" alt="arrow back">
+					</div>
+				</button>
+				<button class="goForward">
+					<div>
+						<img src="Images/frontarrow.png" alt="arrow forward">
+					</div>
+				</button>
+			</div>
+			<div id="game-show"></div>
+			<div id="player-games" class="playerGames"></div>
+		</div>
+	</main>
+	<script src="JS/fetch_players.js"></script>
+	<script src="JS/fetch_game.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Jeu de Yam's - Scores Finaux</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="CSS/scorefinalstyle.css">
+</head>
+<body>
+    <header>
+        <div class="menuyamsheader">
+			<h3>Menu</h3>
+            <a href="menu_principal.html">
+                <button>Menu Principal</button>
+            </a>
+            <a href="indexyams.html">
+                <button>Voir le jeu</button>
+            </a>
+		</div>
+        <div class="jeuyamsheader">
+		    <h3>Résultats finaux</h3>
+            <label>Nom de votre fichier json: </label>
+            <input type="text" id="nomjson">
+            <button id="search-button">Rechercher</button>
+            <h3>Joueurs présents:</h3>
+            <div id="players-list"></div>
+        </div>
+	</header>
+    <main>
+        <h2><strong>Affichage du score final</strong></h2>
+        <div class="tableaux">
+            <table>
+                <thead>
+                    <caption>Joueur 1</caption>
+                    <tr>
+                        <th>Challenge</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="scoreTable1">
+                    <!--le javascript ajoutera les scores ici-->
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <caption>Joueur 2</caption>
+                    <tr>
+                        <th>Challenge</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="scoreTable2">
+                    <!--le javascript ajoutera les scores ici-->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="JS/fetch_final.js"></script>
+	<script src="JS/fetch_players.js"></script>
+</body>
+</html>
