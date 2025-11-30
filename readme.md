@@ -7,14 +7,16 @@ Terminé
 
 ## Comment jouer
 
+Compiler et éxecuter le fichier "main.cs". La partie web n'est plus utilisable, car les professeurs avaient mis à notre disposition une API pour l'occasion.
 
 
-----------------------
+
+## Ancien readme
+
 Projet SAE 11 & 12 en W11 et P11
 
 W11: Kadir EKICI
 P11: Gauthier CLAUDEL, Ferencz ROUDET
-----------------------
 
 Utilisation (W11):
 
